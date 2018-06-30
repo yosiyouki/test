@@ -36,14 +36,12 @@ print("順番が変わるんですね")
 
 print(itemDictionary)
 
-
-
 let list = [3, 7, 9, 12, 8, 5]
 
 for number in list {
     if number % 2 == 0 {
         print("number \(number) is even")
-        
+        //\の入力はoption+¥
     }else{
         print("number \(number) is odd")
     }
@@ -64,3 +62,6 @@ default:
     print("business person")
 }
 
+func greet(expression: String, person: String) -> String{
+    return "\(expression) \(person)"
+}
